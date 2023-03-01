@@ -14,10 +14,9 @@
     width: 200px;
     padding: 10px;
     background-color: white;
-    bottom: -999999px;
+    left: -999999px;
     border-bottom: 5px solid #82b29a;
 }
 .dropdown ul li:hover ul{
     bottom: -150px;
-    transition-duration: 0.5s;
 }

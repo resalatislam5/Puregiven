@@ -1,0 +1,7 @@
+.about_hover:hover h2{
+    margin-top: -70%;
+    transition: 1s;
+}
+.about_hover:hover .about_hover_text{
+    display: block;
+}
