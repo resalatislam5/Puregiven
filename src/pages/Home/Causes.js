@@ -53,7 +53,7 @@ const Causes = () => {
                 </div>
                 <div className="my-8 px-8 flex flex-col gap-5 ">
                     <h3 className="text-3xl text-[#363a57]">{cau.title}</h3>
-                    <p className="">{cau.name}</p>
+                    <p className="font-Barlow font-normal">{cau.name}</p>
                     <div className=''>
                     <ProgressBar
                     backgroundImage={progressBar}

@@ -8,7 +8,7 @@ import Volunteer from './Volunteer';
 
 const Home = () => {
     return (
-        <div>
+        <div className='font-Rajdhani font-bold'>
             <Banner />
             <AboutUs />
             <Causes />

@@ -23,7 +23,7 @@ const AboutUs = () => {
                             <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const AboutUs = () => {
                             <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                             <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>
@@ -59,9 +59,9 @@ const AboutUs = () => {
                         </div>
                         <div className="text-[#636886] flex flex-col gap-7 mt-[40%] md:mt-[20%] lg:mt-0 px-5">
                             <span className="text-lg text-[#e07a5e]">Help People Now</span>
-                            <h1 className="md:text-6xl text-3xl">We’re worldwide ogranization.</h1>
+                            <h1 className="md:text-6xl text-3xl ">We’re worldwide ogranization.</h1>
                             <p className="md:text-2xl text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <p className="text-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                            <p className="text-lg font-Barlow font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                             <div className="flex gap-5">
                                 <img src={founderImg} alt="" />
                                 <div>

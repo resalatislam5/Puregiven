@@ -80,7 +80,7 @@ const Members = () => {
                 <div className='w-1/3 '>
                     <span className="text-lg text-[#e07a5e] ">Our Members</span>
                     <h1 className="md:text-6xl text-3xl py-3">volunteer</h1>
-                    <p className="text-lg">Search through thousands of royalty free images on Pexels. You can use all images for free, even for commercial use. All images are completely royalty </p>
+                    <p className="text-lg font-Barlow font-normal">Search through thousands of royalty free images on Pexels. You can use all images for free, even for commercial use. All images are completely royalty </p>
                 </div>
             </div>
             <div className="w-[50%]">

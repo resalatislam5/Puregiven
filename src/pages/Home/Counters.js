@@ -37,8 +37,8 @@ const Counters = () => {
                     <div className="xl:text-[#636886] text-white flex flex-col gap-7 mt-[40%] md:mt-[20%] lg:mt-0">
                         <span className="text-2xl text-[#e07a5e]">IMPACT</span>
                         <h1 className="md:text-6xl text-3xl">EXPLORE PureGiven WORK AND IMPACT IN 2019</h1>
-                        <p className="text-lg">We invest the money we raise into organizations with years of experience to build sustainable, community-owned water projects around the world. </p>
-                        <p className="text-lg">We invest the money we raise into organizations with years of experience to build sustainable, community-owned water projects around the world. </p>
+                        <p className="text-lg font-Barlow font-normal">We invest the money we raise into organizations with years of experience to build sustainable, community-owned water projects around the world. </p>
+                        <p className="text-lg font-Barlow font-normal">We invest the money we raise into organizations with years of experience to build sustainable, community-owned water projects around the world. </p>
                     <div className='flex flex-col sm:flex-row items-center gap-5'>
                         <button className='border-2 text-[#e07a5e] text-lg py-3 px-5 hover:bg-[#e07a5e] hover:text-white hover:border-[#e07a5e]'>Donate now</button>
                         <button className='border-2 text-[#e07a5e] text-lg py-4 px-5 hover:bg-[#e07a5e] hover:text-white hover:border-[#e07a5e]'><IoCallSharp /></button>

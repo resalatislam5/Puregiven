@@ -9,7 +9,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header className='relative'>
-    <nav className="py-4 bg-[#82b29a] text-white">
+    <nav className="py-4 bg-[#82b29a] text-white font-Barlow font-normal">
         <div className="xl:grid xl:grid-cols-2 grid-cols-1 gap-4 xl:justify-between justify-center w-full text-sm">
             <div className='sm:flex justify-center xl:justify-start items-center gap-6 pl-6 text-sm hidden'>
                 <a href="tel:000 8888 999" className="flex items-center gap-2 hover:text-amber-400"><IoCallSharp /> Call us 000 8888 999</a>
@@ -18,8 +18,8 @@ const Header = () => {
             </div>
             <div className="flex justify-center sm:pt-5 xl:pt-0 xl:justify-end items-center flex-wrap text-sm">
                 <div className="flex gap-6">
-                    <a className=" hover:text-amber-400 flex items-center gap-2" href="/"><CgLogIn /> Login</a>
-                    <a href="/" className=" hover:text-amber-400 border-2 border-gray-300  px-5 py-2 rounded-sm flex items-center gap-2"><FaUserAlt /> Sign Up</a>
+                    <a className=" hover:text-amber-400 flex items-center gap-2 font-bold" href="/"><CgLogIn /> Login</a>
+                    <a href="/" className=" hover:text-amber-400 border-2 border-gray-300 px-5 py-2 rounded-sm flex items-center gap-2 font-bold"><FaUserAlt /> Sign Up</a>
                 </div>
                 <div className="mx-5 flex items-center gap-6">
                     <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaTwitter /> Twitter</a>
@@ -30,13 +30,13 @@ const Header = () => {
         </div>
       </nav>
       {/* main     */}
-    <nav className="main-navber  border-b-2 xl:border-0 border-gray-200 sm:px-4  rounded bg-transparent absolute  w-full text-white z-10">
+    <nav className="main-navber  border-b-2 xl:border-0 border-gray-200 sm:px-4  rounded bg-transparent absolute  w-full text-white z-10 font-semibold">
         <div className="grid grid-cols-12">
         <a href="/" className="flex items-center xl:border-2 xl:border-l-0 border-gray-400 p-8 xl:col-span-2 col-span-5">
             <img src={logo} className="mr-3 h-6 sm:h-9" alt="Puregiven" /> 
         </a>
         <div className="flex order-2 xl:border-2 xl:border-r-0 border-gray-400 p-8 col-span-2 items-center xl:justify-center justify-start text-xl font-medium mr-2">
-            <a href="/" className='hidden xl:flex '>DONATE NOW</a>
+            <a href="/" className='hidden xl:flex font-bold'>DONATE NOW</a>
             <button data-collapse-toggle="navbar-cta" type="button" className="inline-flex  items-center p-2 text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
