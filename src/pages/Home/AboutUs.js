@@ -51,13 +51,13 @@ const AboutUs = () => {
             </div> 
             <div className="container mx-auto">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-20 lg:mt-[25%] sm:mt-[30%] mt-[40%] sm:px-5 px-1">
-                        <div className="">
+                        <div className="mx-auto">
                                 <img src={about1} alt="" />
-                                <img className='sm:absolute 2xl:-mt-[5%] sm:-mt-[7%] 2xl:ml-[9%] sm:ml-[10%] sm:border-8 border-white' src={about2} alt="" />
-                                <img className='mt-[3%] ml-[2%] hidden sm:flex' src={about3} alt="" />
+                                <img className='absolute 2xl:-mt-[5%] -mt-[7%] 2xl:ml-[9%] sm:ml-[10%] ml-[20%] border-8 border-white w-52 sm:w-fit' src={about2} alt="" />
+                                <img className='mt-[3%] ml-[2%] hidden sm:flex ' src={about3} alt="" />
                                 <img className='absolute hidden sm:flex 2xl:-mt-[20%] -mt-[28%] 2xl:ml-[22%] ml-[30%]' src={aboutSap} alt="" />
                         </div>
-                        <div className="text-[#636886] flex flex-col gap-7 md:mt-[20%] lg:mt-0">
+                        <div className="text-[#636886] flex flex-col gap-7 mt-[40%] md:mt-[20%] lg:mt-0 px-5">
                             <span className="text-lg text-[#e07a5e]">Help People Now</span>
                             <h1 className="md:text-6xl text-3xl">We’re worldwide ogranization.</h1>
                             <p className="md:text-2xl text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>

@@ -9,28 +9,28 @@ import './Header.css'
 const Header = () => {
     return (
         <header className='relative'>
-    <nav className="navbar py-4 bg-[#82b29a] text-white">
+    <nav className="py-4 bg-[#82b29a] text-white">
         <div className="xl:grid xl:grid-cols-2 grid-cols-1 gap-4 xl:justify-between justify-center w-full text-sm">
             <div className='sm:flex justify-center xl:justify-start items-center gap-6 pl-6 text-sm hidden'>
-                <a href="tel:000 8888 999" className="flex items-center gap-2"><IoCallSharp /> Call us 000 8888 999</a>
-                <a href="mailto:contact@sitename.com" className="flex items-center gap-2">< CgMail /> contact@sitename.com</a>
-                <a href="/" className="flex items-center gap-2"><FaUserAlt /> Become A Volunteer</a>
+                <a href="tel:000 8888 999" className="flex items-center gap-2 hover:text-amber-400"><IoCallSharp /> Call us 000 8888 999</a>
+                <a href="mailto:contact@sitename.com" className="flex items-center gap-2 hover:text-amber-400">< CgMail /> contact@sitename.com</a>
+                <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaUserAlt /> Become A Volunteer</a>
             </div>
             <div className="flex justify-center sm:pt-5 xl:pt-0 xl:justify-end items-center flex-wrap text-sm">
                 <div className="flex gap-6">
-                    <a className="flex items-center gap-2" href="/"><CgLogIn /> Login</a>
-                    <a href="/" className="border-2 border-gray-300  px-5 py-2 rounded-sm flex items-center gap-2"><FaUserAlt /> Sign Up</a>
+                    <a className=" hover:text-amber-400 flex items-center gap-2" href="/"><CgLogIn /> Login</a>
+                    <a href="/" className=" hover:text-amber-400 border-2 border-gray-300  px-5 py-2 rounded-sm flex items-center gap-2"><FaUserAlt /> Sign Up</a>
                 </div>
                 <div className="mx-5 flex items-center gap-6">
-                    <a href="/" className="flex items-center gap-2"><FaTwitter /> Twitter</a>
-                    <a href="/" className="flex items-center gap-2"><FaFacebook /> Facebook</a>
-                    <a href="/" className="flex items-center gap-2"><FaYoutube /> Youtube</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaTwitter /> Twitter</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaFacebook /> Facebook</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaYoutube /> Youtube</a>
                 </div>
             </div>
         </div>
       </nav>
       {/* main     */}
-    <nav className="main-navber border-b-2 xl:border-0 border-gray-200 sm:px-4  rounded bg-transparent absolute  w-full text-white z-10">
+    <nav className="main-navber  border-b-2 xl:border-0 border-gray-200 sm:px-4  rounded bg-transparent absolute  w-full text-white z-10">
         <div className="grid grid-cols-12">
         <a href="/" className="flex items-center xl:border-2 xl:border-l-0 border-gray-400 p-8 xl:col-span-2 col-span-5">
             <img src={logo} className="mr-3 h-6 sm:h-9" alt="Puregiven" /> 
