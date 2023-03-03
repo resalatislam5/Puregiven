@@ -35,7 +35,7 @@ const Causes = () => {
         }
 ]
     return (
-        <div className='bg-no-repeat bg-[#f0eeec] sm:py-28 py-10' style={{backgroundImage:`url(${causeBg})`}}>
+        <div className='bg-repeat-x bg-[#f0eeec] sm:py-28 py-10 ' style={{backgroundImage:`url(${causeBg})`}}>
             <div className='text-center'>
                 <p className='text-[#e07a5e] text-lg'>Popular Causes</p>
                 <h2 className="text-[#faf7e3] text-6xl">Donate to charity causes <br className='' /> around the world.</h2>
