@@ -75,18 +75,18 @@ const Members = () => {
         },
     ]
     return (
-        <div className='flex py-28 items-center'>
-            <div className="w-[50%] relative -z-10 flex flex-col justify-center items-center">
-                <div className='w-1/3 '>
+        <div className='xl:flex py-28 items-center'>
+            <div className="xl:w-[50%] relative -z-10 flex flex-col justify-center items-center">
+                <div className='xl:w-[40%] px-5'>
                     <span className="text-lg text-[#e07a5e] ">Our Members</span>
                     <h1 className="md:text-6xl text-3xl py-3">volunteer</h1>
                     <p className="text-lg font-Barlow font-normal">Search through thousands of royalty free images on Pexels. You can use all images for free, even for commercial use. All images are completely royalty </p>
                 </div>
             </div>
-            <div className="w-[50%]">
+            <div className="xl:w-[50%] mt-10 xl:mt-0">
             <>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={3}
         centeredSlides={true}
         spaceBetween={30}
         navigation={true}
@@ -95,13 +95,13 @@ const Members = () => {
       >
         {
             volunteers.map((member,i) =><SwiperSlide id={i}>
-                    <div className='relative icon_top'>
+                    <div className='relative icon_top w-40 sm:w-full'>
                         <img src={member.img} className='w-full' alt="" />
                         <div className="p-5 border">
                             <h3 className="text-lg text-[#363a57]">Daniel Castro</h3>
                             <p className="text-sm text-[#636886]">CEO & Lead Blockchain</p>
                         </div>
-                        <div className='absolute bottom-20 hidden icon flex-col gap-5 bg-white p-5 text-2xl'>
+                        <div className='absolute bottom-20 hidden icon flex-col gap-5 bg-white sm:p-5 text-2xl'>
                             <a href="/" className='text-[#4e69a2]'><FaFacebook /></a>
                             <a href="/" className='text-[#26a6d1]'><FaTwitterSquare /></a>
                             <a href="/" className='text-[#dd4b39]'><FaGooglePlus /></a>
