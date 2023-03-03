@@ -60,16 +60,6 @@ const Counters = () => {
                                 <p className="text-sm">{counter.title}</p>
                             </div>
                             )}
-                            {/* <div className="sm:w-[45%] w-full border-2 hover:border-[#e07a5e] flex justify-center items-center flex-col p-20 hover:bg-[#e07a5e] hover:text-white">
-                                <img src={hand} alt="" />
-                                <h5 className="text-4xl mt-4">
-                                <CountUp
-                                enableScrollSpy={true}
-                                 end={3630}
-                                  />
-                                </h5>
-                                <p className="text-sm">New Causes</p>
-                            </div> */}
                         </div>
                 </div>
             </div>

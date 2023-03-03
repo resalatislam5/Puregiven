@@ -5,3 +5,8 @@
 .about_hover:hover .about_hover_text{
     display: block;
 }
+/* members */
+.icon_top:hover .icon {
+    display: flex;
+    transition: ease-in
+}
