@@ -46,9 +46,9 @@ const Causes = () => {
                 <img className='w-full' src={cau.image} alt="" />
                 <div className="absolute top-3 w-full flex justify-between px-5">
                         <button className='border-2 text-white text-lg py-1 px-5'>{cau.topButon}</button>
-                        <div className="text-white flex items-center gap-3 text-xl">
-                            <p className='bg-black opacity-80 bg-transparent py-2 px-4 flex items-center gap-2'><BsFillCameraFill /> <span>6</span></p>
-                            <p className='bg-black opacity-80 bg-transparent py-2 px-4 flex items-center gap-2'><BsYoutube /> <span>3</span></p>
+                        <div className="text-white flex items-center gap-2 text-xl">
+                            <p className='bg-black opacity-80 py-2 px-4 flex items-center gap-2'><BsFillCameraFill /> <span>6</span></p>
+                            <p className='bg-black opacity-80 py-2 px-4 flex items-center gap-2'><BsYoutube /> <span>3</span></p>
                         </div>
                 </div>
                 <div className="my-8 px-8 flex flex-col gap-5 ">
