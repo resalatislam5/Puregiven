@@ -10,9 +10,10 @@ import founderImg from '../../ass/founder_img.png'
 import aboutSap from '../../ass/about/about_img_shape.png'
 import { FaAngleRight } from "react-icons/fa";
 import './Home.css'
-
+import { Parallax, useParallax } from 'react-scroll-parallax';
 
 const AboutUs = () => {
+    // const { ref } = useParallax({ speed: -10 })
     return (
         <div className='bg-cover bg-no-repeat sm:pb-48 pb-32' style={{backgroundImage:`url(${background})`}}>
             <div className='container flex flex-col items-center mx-auto'>
@@ -51,11 +52,21 @@ const AboutUs = () => {
             </div> 
             <div className="container mx-auto">
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-20 lg:mt-[25%] sm:mt-[30%] mt-[40%] sm:px-5 px-1">
-                        <div className="mx-auto">
+                        <div  className="mx-auto">
                                 <img src={about1} alt="" />
-                                <img className='absolute 2xl:-mt-[5%] -mt-[7%] 2xl:ml-[9%] sm:ml-[10%] ml-[20%] border-8 border-white w-52 sm:w-fit' src={about2} alt="" />
-                                <img className='mt-[3%] ml-[2%] hidden sm:flex ' src={about3} alt="" />
-                                <img className='absolute hidden sm:flex 2xl:-mt-[20%] -mt-[28%] 2xl:ml-[22%] ml-[30%]' src={aboutSap} alt="" />
+                                <img className='absolute 2xl:-mt-[10%] -mt-[7%] 2xl:ml-[9%] sm:ml-[10%] ml-[20%] border-8 border-white w-52 sm:w-fit' src={about2} alt="" />
+                                <Parallax 
+                                speed={10}
+                                translateY={['-20px', '100px']}
+                                >
+                                    <img className='mt-[5%] ml-[2%] hidden sm:flex ' src={about3} alt="" />
+                                </Parallax>
+                                <Parallax
+                                className='absolute hidden sm:flex 2xl:-mt-[20%] -mt-[28%] 2xl:ml-[22%] ml-[30%]'
+                                translateY={['-100px', '-20px']}
+                                >
+                                    <img  src={aboutSap} alt="" />
+                                </Parallax>
                         </div>
                         <div className="text-[#636886] flex flex-col gap-7 mt-[40%] md:mt-[20%] lg:mt-0 px-5">
                             <span className="text-lg text-[#e07a5e]">Help People Now</span>
