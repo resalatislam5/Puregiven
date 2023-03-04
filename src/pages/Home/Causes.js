@@ -45,7 +45,7 @@ const Causes = () => {
                 causes.map((cau) => <div  className="sm:w-96 w-80 -mt-[2px] bg-white relative">
                 <img className='w-full' src={cau.image} alt="" />
                 <div className="absolute top-3 w-full flex justify-between px-5">
-                        <button className='border-2 text-white text-lg py-1 px-5'>{cau.topButon}</button>
+                        <button className='border-2 text-white hover:bg-[#e07a5e]  hover:border-[#e07a5e] text-lg py-1 px-5'>{cau.topButon}</button>
                         <div className="text-white flex items-center gap-2 text-xl">
                             <p className='bg-black opacity-80 py-2 px-4 flex items-center gap-2'><BsFillCameraFill /> <span>6</span></p>
                             <p className='bg-black opacity-80 py-2 px-4 flex items-center gap-2'><BsYoutube /> <span>3</span></p>

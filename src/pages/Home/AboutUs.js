@@ -10,10 +10,9 @@ import founderImg from '../../ass/founder_img.png'
 import aboutSap from '../../ass/about/about_img_shape.png'
 import { FaAngleRight } from "react-icons/fa";
 import './Home.css'
-import { Parallax, useParallax } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 const AboutUs = () => {
-    // const { ref } = useParallax({ speed: -10 })
     return (
         <div className='bg-cover bg-no-repeat sm:pb-48 pb-32' style={{backgroundImage:`url(${background})`}}>
             <div className='container flex flex-col items-center mx-auto'>
