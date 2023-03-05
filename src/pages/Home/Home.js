@@ -6,6 +6,7 @@ import Counters from './Counters';
 import Events from './Events';
 import Gallery from './Gallery';
 import Members from './Members';
+import Testimonials from './Testimonials';
 import Volunteer from './Volunteer';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Members />
             <Events />
             <Gallery />
+            <Testimonials />
         </div>
     );
 };

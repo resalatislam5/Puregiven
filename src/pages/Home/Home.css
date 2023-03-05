@@ -10,3 +10,8 @@
     display: flex;
     transition: ease-in
 }
+
+.test_shadow{
+    background-color: #fff;
+    box-shadow: rgba(243, 241, 242, 0.4) 10px 10px, rgba(243, 241, 242, 0.4) 20px 20px;
+}

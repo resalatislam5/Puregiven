@@ -34,7 +34,7 @@ const Events = () => {
 ]
     return (
         <div className='bg-cover bg-no-repeat bg-[#f0eeec] sm:py-28 py-10 ' style={{backgroundImage:`url(${evenBg})`}}>
-            <div className='text-center'>
+            <div className='text-center uppercase'>
                 <p className='text-[#e07a5e] text-lg'>our events</p>
                 <h2 className="text-[#363a57] text-6xl">Next Events</h2>
             </div>
