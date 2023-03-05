@@ -34,7 +34,7 @@ const Counters = () => {
         <div className='xl:bg-[#f0eeec] bg-no-repeat bg-cover xl:bg-contain bg-right' style={{backgroundImage:`url(${impactBg})`}}>
             <div className="container mx-auto xl:flex justify-between  sm:px-5 px-2 py-28">
                 <div className="flex justify-center  xl:w-[45%]">
-                    <div className="xl:text-[#636886] text-white flex flex-col gap-7 mt-[40%] md:mt-[20%] lg:mt-0">
+                    <div className="xl:text-[#636886] text-white flex flex-col gap-7">
                         <span className="text-2xl text-[#e07a5e]">IMPACT</span>
                         <h1 className="md:text-6xl text-3xl">EXPLORE PureGiven WORK AND IMPACT IN 2019</h1>
                         <p className="text-lg font-Barlow font-normal">We invest the money we raise into organizations with years of experience to build sustainable, community-owned water projects around the world. </p>
@@ -49,7 +49,7 @@ const Counters = () => {
                 <div className="xl:w-[45%] bg-white text-[#363a57] mt-10 xl:mt-0">
                         <div className="flex flex-wrap sm:p-5 justify-center">
                             {
-                                counters.map((counter, i) => <div id={i} className="sm:w-[45%] w-full border-2 hover:border-[#e07a5e] flex justify-center items-center flex-col p-20 hover:bg-[#e07a5e] hover:text-white">
+                                counters.map((counter, i) => <div key={i} className="sm:w-[45%] w-full border-2 hover:border-[#e07a5e] flex justify-center items-center flex-col p-20 hover:bg-[#e07a5e] hover:text-white">
                                 <img src={counter.img} className="bg-white rounded-lg" alt="" />
                                 <h5 className="text-4xl mt-4">
                                 <CountUp

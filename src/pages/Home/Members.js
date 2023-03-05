@@ -94,7 +94,7 @@ const Members = () => {
         className="mySwiper"
       >
         {
-            volunteers.map((member,i) =><SwiperSlide id={i}>
+            volunteers.map((member,i) =><SwiperSlide key={i}>
                     <div className='relative icon_top w-40 sm:w-full'>
                         <img src={member.img} className='w-full' alt="" />
                         <div className="p-5 border">
