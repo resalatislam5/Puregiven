@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation } from "swiper";
 // import './Gallery.module.css'
-import styles from './Gallery.module.css'
+import './Gallery.module.css'
 import gallerImg1 from '../../ass/gallery/gallery_img_1.png'
 
 const Gallery = () => {

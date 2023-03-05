@@ -10,8 +10,31 @@
     display: flex;
     transition: ease-in
 }
-
+/* testimonials */
 .test_shadow{
     background-color: #fff;
     box-shadow: rgba(243, 241, 242, 0.4) 10px 10px, rgba(243, 241, 242, 0.4) 20px 20px;
+}
+
+/* blog */
+.Blog_bg{
+  background: linear-gradient(
+    to top,
+    #f0eeec 0%,
+    #f0eeec 50%,
+    white 50%,
+    white 100%
+  );
+}
+
+@media (max-width: 1280px) {
+    .Blog_bg{
+        background: linear-gradient(
+    to top,
+    #f0eeec 0%,
+    #f0eeec 50%,
+    #f0eeec 50%,
+    #f0eeec 100%
+  );
+      }
 }

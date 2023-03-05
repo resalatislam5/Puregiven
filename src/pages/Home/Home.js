@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from './AboutUs';
 import Banner from './Banner';
+import Blog from './Blog';
 import Causes from './Causes';
 import Counters from './Counters';
 import Events from './Events';
@@ -21,6 +22,7 @@ const Home = () => {
             <Events />
             <Gallery />
             <Testimonials />
+            <Blog />
         </div>
     );
 };
