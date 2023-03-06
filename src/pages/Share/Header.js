@@ -12,19 +12,19 @@ const Header = () => {
     <nav className="py-4 bg-[#82b29a] text-white font-Barlow font-normal">
         <div className="xl:grid xl:grid-cols-2 grid-cols-1 gap-4 xl:justify-between justify-center w-full text-sm">
             <div className='sm:flex justify-center xl:justify-start items-center gap-6 pl-6 text-sm hidden'>
-                <a href="tel:000 8888 999" className="flex items-center gap-2 hover:text-amber-400"><IoCallSharp /> Call us 000 8888 999</a>
-                <a href="mailto:contact@sitename.com" className="flex items-center gap-2 hover:text-amber-400">< CgMail /> contact@sitename.com</a>
-                <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaUserAlt /> Become A Volunteer</a>
+                <a href="tel:000 8888 999" className="flex items-center gap-2 hover:text-[#f2cc8e]"><IoCallSharp /> Call us 000 8888 999</a>
+                <a href="mailto:contact@sitename.com" className="flex items-center gap-2 hover:text-[#f2cc8e]">< CgMail /> contact@sitename.com</a>
+                <a href="/" className="flex items-center gap-2 hover:text-[#f2cc8e]"><FaUserAlt /> Become A Volunteer</a>
             </div>
             <div className="flex justify-center sm:pt-5 xl:pt-0 xl:justify-end items-center flex-wrap text-sm">
                 <div className="flex gap-6">
-                    <a className=" hover:text-amber-400 flex items-center gap-2 font-bold" href="/"><CgLogIn /> Login</a>
-                    <a href="/" className=" hover:text-amber-400 border-2 border-gray-300 px-5 py-2 rounded-sm flex items-center gap-2 font-bold"><FaUserAlt /> Sign Up</a>
+                    <a className=" hover:text-[#f2cc8e] flex items-center gap-2 font-bold" href="/"><CgLogIn /> Login</a>
+                    <a href="/" className=" hover:text-[#f2cc8e] border-2 border-gray-300 px-5 py-2 rounded-sm flex items-center gap-2 font-bold"><FaUserAlt /> Sign Up</a>
                 </div>
                 <div className="mx-5 flex items-center gap-6">
-                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaTwitter /> Twitter</a>
-                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaFacebook /> Facebook</a>
-                    <a href="/" className="flex items-center gap-2 hover:text-amber-400"><FaYoutube /> Youtube</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-[#f2cc8e]"><FaTwitter /> Twitter</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-[#f2cc8e]"><FaFacebook /> Facebook</a>
+                    <a href="/" className="flex items-center gap-2 hover:text-[#f2cc8e]"><FaYoutube /> Youtube</a>
                 </div>
             </div>
         </div>
@@ -48,13 +48,13 @@ const Header = () => {
                 <a href="/" className="block  pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
                 <ul className="text-lg ">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0  md:dark:hover:bg-transparent">Home 1</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Home 2</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Home 3</a>
                       </li>
                 </ul>
               </li>      
@@ -62,13 +62,10 @@ const Header = () => {
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Causes</a>
                 <ul className="text-lg">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Causes List</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Causes Details</a>
                       </li>
                 </ul>
               </li>      
@@ -76,13 +73,7 @@ const Header = () => {
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Events</a>
                 <ul className="text-lg">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Events Details</a>
                       </li>
                 </ul>
               </li>      
@@ -90,13 +81,19 @@ const Header = () => {
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pagas</a>
                 <ul className="text-lg">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Donate</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Gallery</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Sermons Details</a>
+                      </li>
+                    <li>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Team Details</a>
+                      </li>
+                    <li>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Become volunteer</a>
                       </li>
                 </ul>
               </li>      
@@ -104,13 +101,10 @@ const Header = () => {
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
                 <ul className="text-lg">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Blog Details</a>
                       </li>
                 </ul>
               </li>      
@@ -118,29 +112,21 @@ const Header = () => {
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shop          </a>
                 <ul className="text-lg">
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shop</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Cart</a>
                       </li>
                     <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Checkout</a>
+                      </li>
+                    <li>
+                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-400  hover:text-amber-400 md:dark:hover:bg-transparent">Products Details</a>
                       </li>
                 </ul>
               </li>      
             <li >
                 <a href="/" className="block pr-4 pl-3 text-White text-lg rounded hover:text-amber-400 py-10  md:border-0   md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                <ul className="text-lg">
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700  hover:text-amber-400  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 1</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 2</a>
-                      </li>
-                    <li>
-                        <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home 3</a>
-                      </li>
-                </ul>
               </li>      
         </ul>
         <div className="xl:ml-16 flex items-center gap-5 xl:gap-3">

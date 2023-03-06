@@ -18,5 +18,6 @@
     border-bottom: 5px solid #82b29a;
 }
 .dropdown ul li:hover ul{
-    bottom: -150px;
+    left: 0px;
+    top: 108px;
 }

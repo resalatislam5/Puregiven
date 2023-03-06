@@ -33,10 +33,10 @@ const Gallery = () => {
             [...Array(10)].map((gal, i) => <SwiperSlide key={i} className='mt-20 gallery_hover'>
                 <div className='relative'>
                     <img src={gallerImg1} alt="" />
-                    <div className='uppercase bg-white shadow-2xl  absolute -bottom-5 border-4 left-[3%] px-5 py-3 w-[90%] styles.gallery_hover_text '>
+                    {/* <div className='uppercase bg-white shadow-2xl  absolute -bottom-5 border-4 left-[3%] px-5 py-3 w-[90%] styles.gallery_hover_text '>
                         <p className="text-lg text-[#e07a5e]">portfolio</p>
                         <h2 className="text-6xl text-[#363a57]">our gallery</h2>
-                    </div>
+                    </div> */}
                 </div>
             </SwiperSlide>)
         }
