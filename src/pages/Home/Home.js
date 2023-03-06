@@ -6,6 +6,7 @@ import Causes from './Causes';
 import Counters from './Counters';
 import Events from './Events';
 import Gallery from './Gallery';
+import JoinUsFrom from './JoinUsFrom';
 import Members from './Members';
 import Testimonials from './Testimonials';
 import Volunteer from './Volunteer';
@@ -23,6 +24,7 @@ const Home = () => {
             <Gallery />
             <Testimonials />
             <Blog />
+            <JoinUsFrom />
         </div>
     );
 };
