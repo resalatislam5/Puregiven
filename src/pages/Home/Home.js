@@ -3,6 +3,7 @@ import AboutUs from './AboutUs';
 import Banner from './Banner';
 import Blog from './Blog';
 import Causes from './Causes';
+import ContactInfo from './ContactInfo';
 import Counters from './Counters';
 import Events from './Events';
 import Gallery from './Gallery';
@@ -25,6 +26,7 @@ const Home = () => {
             <Testimonials />
             <Blog />
             <JoinUsFrom />
+            <ContactInfo />
         </div>
     );
 };
