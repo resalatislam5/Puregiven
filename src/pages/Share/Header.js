@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoCallSharp } from 'react-icons/io5';
 import { BsFillCartCheckFill } from 'react-icons/bs';
 import { FaUserAlt, FaTwitter, FaFacebook, FaYoutube } from 'react-icons/fa';
@@ -6,8 +6,17 @@ import { CgMail, CgLogIn } from 'react-icons/cg';
 import logo from '../../ass/light_logo.png'
 import './Header.css'
 import { Link } from 'react-router-dom';
-
+import { IoMdArrowDropdown } from "react-icons/io";
 const Header = () => {
+  const [home, setHome] = useState(false);
+  const [causes, setCauses] = useState(false);
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
     return (
         <header className='relative'>
     <nav className="py-4 bg-[#82b29a] text-white font-Barlow font-normal">
@@ -31,6 +40,26 @@ const Header = () => {
         </div>
       </nav>
       {/* main     */}
+      {/* responsive start  */}
+      <div id="mySidenav" className="sidenav">
+          <button className="closebtn" onClick={() => closeNav()}>&times;</button>
+              <button onClick={() =>setHome(!home)} className="w-full flex items-center gap-2">Home <span><IoMdArrowDropdown /></span></button>
+              { home &&
+                <div class="dropdown-container">
+                  <a href="/">Home 1</a>
+                  <a href="/">Home 2</a>
+                  <a href="/">Home 3</a>
+                </div>
+              }
+              <button onClick={() => setCauses(!causes)} className="w-full flex items-center gap-2">Causes Details <span><IoMdArrowDropdown /></span></button>
+              { causes &&
+                <div class="dropdown-container">
+                  <Link to="/causes-list">Causes List</Link>
+                  <Link to="/causes-details">Causes Details</Link>
+                </div>
+              }
+        </div>
+      {/* responsive end  */}
     <nav className="main-navber  border-b-2 xl:border-0 border-gray-200 sm:px-4  rounded bg-transparent absolute  w-full text-white z-10 font-semibold">
         <div className="grid grid-cols-12">
         <a href="/" className="flex items-center xl:border-2 xl:border-l-0 border-gray-400 p-8 xl:col-span-2 col-span-5">
@@ -38,8 +67,7 @@ const Header = () => {
         </a>
         <div className="flex order-2 xl:border-2 xl:border-r-0 border-gray-400 p-8 col-span-2 items-center xl:justify-center justify-start text-xl font-medium mr-2">
             <a href="/" className='hidden xl:flex font-bold'>DONATE NOW</a>
-            <button data-collapse-toggle="navbar-cta" type="button" className="inline-flex  items-center p-2 text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
-            <span className="sr-only">Open main menu</span>
+            <button onClick={() => openNav()} type="button" className="inline-flex  items-center p-2 text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
             <svg className="w-6 h-6 text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </button>
         </div>

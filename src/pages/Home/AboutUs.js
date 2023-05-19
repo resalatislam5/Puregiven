@@ -16,7 +16,7 @@ const AboutUs = () => {
     return (
         <div className='bg-cover bg-no-repeat sm:pb-48 pb-32' style={{backgroundImage:`url(${background})`}}>
             <div className='container flex flex-col items-center mx-auto'>
-                <div className='xl:-mt-28 mt-10 2xl:absolute flex flex-wrap justify-center gap-28  text-[#faf7e3] sm:px-5 px-2'>
+                <div className='xl:-mt-28 z-0 mt-10 2xl:absolute flex flex-wrap justify-center gap-28  text-[#faf7e3] sm:px-5 px-2'>
                     <div className="z-50 about_hover">
                         <img className='border-8 border-white'  src={feature} alt="" />
                         <div className="-mt-[50%] text-center">
