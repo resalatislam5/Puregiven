@@ -82,6 +82,9 @@ const Banner = () => {
             </svg>
             <span ref={progressContent}></span>
           </div>
+          {/* <div>
+              
+          </div> */}
         </Swiper>
       </section>
     );

@@ -1,3 +1,4 @@
+import CausesDetails from "../pages/CausesDetails/CausesDetails";
 import CausesMain from "../pages/CausesList/CausesMain";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
             {
                 path: '/causes-list',
                 element: <CausesMain />
+            },
+            {
+                path: '/causes-details',
+                element: <CausesDetails />
             },
         ]
     }

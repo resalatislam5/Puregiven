@@ -3,7 +3,6 @@ import causeBg from '../../ass/causes_list_bg.png'
 import cause1 from '../../ass/causes/causes_thumb_1.png'
 import cause2 from '../../ass/causes/causes_thumb_2.png'
 import cause3 from '../../ass/causes/causes_thumb_3.png'
-import progressBar from '../../ass/progress_bar_bg.png'
 import ProgressBar from 'react-animated-progress-bar';
 import { BsShare, BsFillCameraFill, BsYoutube } from 'react-icons/bs';
 
@@ -15,7 +14,8 @@ const Causes = () => {
             title: 'New School Teachers',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'90'
         },
         {
             image: `${cause2}`,
@@ -23,7 +23,8 @@ const Causes = () => {
             title: 'The Sheohar 2 Project',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'80'
         },
         {
             image: `${cause3}`,
@@ -31,7 +32,8 @@ const Causes = () => {
             title: 'Moving Toward A Better',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'70'
         }
 ]
     return (
@@ -56,19 +58,17 @@ const Causes = () => {
                     <p className="font-Barlow font-normal">{cau.name}</p>
                     <div className=''>
                     <ProgressBar
-                    backgroundImage={progressBar}
                     width="300px"
-                    height="15px"
+                    height="20px"
                     rect
-                    fontColor="gray"
-                    percentage="70"
+                    percentage={cau.percentage}
                     rectPadding="1px"
                     trackPathColor="transparent"
                     bgColor="#333333"
                     trackBorderColor="grey"
                     />
                         <p className='text-[#272e3b] text-lg'>{cau.price}</p>
-                        <p className='text-[#272e3b] text-lg'>{cau.raised}</p>
+                        <p className='text-[#272e3b] text-sm'>{cau.raised}</p>
                     </div>
                 <div className='flex gap-5'>
                     <button className='border-2 text-[#7b7f85] text-lg py-3 px-5 hover:bg-[#e07a5e] hover:text-white hover:border-[#e07a5e]'>Donate now</button>

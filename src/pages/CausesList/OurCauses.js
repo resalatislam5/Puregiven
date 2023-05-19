@@ -1,9 +1,7 @@
 import React from 'react';
-import causeBg from '../../ass/causes_list_bg.png'
 import cause1 from '../../ass/causes/causes_thumb_1.png'
 import cause2 from '../../ass/causes/causes_thumb_2.png'
 import cause3 from '../../ass/causes/causes_thumb_3.png'
-import progressBar from '../../ass/progress_bar_bg.png'
 import ProgressBar from 'react-animated-progress-bar';
 import { BsShare, BsFillCameraFill, BsYoutube } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
@@ -15,7 +13,8 @@ const OurCauses = () => {
             title: 'New School Teachers',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'90'
         },
         {
             image: `${cause2}`,
@@ -23,7 +22,8 @@ const OurCauses = () => {
             title: 'The Sheohar 2 Project',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'80'
         },
         {
             image: `${cause3}`,
@@ -31,7 +31,8 @@ const OurCauses = () => {
             title: 'Moving Toward A Better',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'70'
         },
         {
             image: `${cause3}`,
@@ -39,7 +40,8 @@ const OurCauses = () => {
             title: 'Moving Toward A Better',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'50'
         },
         {
             image: `${cause3}`,
@@ -47,7 +49,8 @@ const OurCauses = () => {
             title: 'Moving Toward A Better',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'60'
         },
         {
             image: `${cause3}`,
@@ -55,7 +58,8 @@ const OurCauses = () => {
             title: 'Moving Toward A Better',
             name: 'Lorem Ipsum. Progravida nibh vel velit auctor alinean sollicitudin, lorem quis bibendum auctor nisi elit',
             price: '$50,000',
-            raised : 'Raised of $70,000'
+            raised : 'Raised of $70,000',
+            percentage:'70'
         }
 ]
     return (
@@ -81,12 +85,11 @@ const OurCauses = () => {
                     <p className="font-Barlow font-normal">{cau.name}</p>
                     <div className=''>
                     <ProgressBar
-                    backgroundImage={progressBar}
                     width="300px"
-                    height="15px"
+                    height="20px"
                     rect
                     fontColor="gray"
-                    percentage="70"
+                    percentage={cau.percentage}
                     rectPadding="1px"
                     trackPathColor="transparent"
                     bgColor="#333333"
