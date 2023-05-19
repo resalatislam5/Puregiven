@@ -15,7 +15,34 @@
     background-color: #fff;
     box-shadow: rgba(243, 241, 242, 0.4) 10px 10px, rgba(243, 241, 242, 0.4) 20px 20px;
 }
+/* gallery */
+.gallery_hover{
+    height: 550px;
+}
+@media (max-width: 1400px) {
+    .gallery_hover{
+        height: 400px;
+    }
+}
+@media (max-width: 1200px) {
+    .gallery_hover{
+        height: 300px;
+    }
+}
+@media (max-width: 1020px) {
+    .gallery_hover{
+        height: 250px;
+    }
+}
+@media (max-width: 680px) {
+    .gallery_hover{
+        height: 380px;
+    }
+}
 
+.gallery_hover:hover .gallery_hover_text{
+    display: block;
+}
 /* blog */
 .Blog_bg{
   background: linear-gradient(
