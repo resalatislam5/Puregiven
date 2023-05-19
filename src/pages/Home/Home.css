@@ -1,3 +1,35 @@
+/* banner */
+.banner .swiper-button-prev{
+    top: 90%;
+    left: 90%;
+    background-color: #82b29a;
+    padding: 26px;
+}
+.banner .swiper-button-next{
+    top: 90%;
+    background-color: #82b29a;
+    padding: 26px;
+}
+
+@media (max-width: 1280px) {
+    .banner .swiper-button-prev{
+        left: 86%;
+    }
+}
+@media (max-width: 1020px) {
+    .banner .swiper-button-prev{
+        left: 80%;
+    }
+}
+@media (max-width: 680px) {
+    .banner .swiper-button-prev{
+        display: none;
+    }
+    .banner .swiper-button-next{
+        display: none;
+    }
+}
+/* about  */
 .about_hover:hover h2{
     margin-top: -70%;
     transition: 1s;

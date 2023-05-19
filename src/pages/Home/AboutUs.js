@@ -16,34 +16,34 @@ const AboutUs = () => {
     return (
         <div className='bg-cover bg-no-repeat sm:pb-48 pb-32' style={{backgroundImage:`url(${background})`}}>
             <div className='container flex flex-col items-center mx-auto'>
-                <div className='sm:-mt-28 -mt-10 absolute flex lg:gap-20 sm:gap-10 gap-2 text-[#faf7e3] sm:px-5 px-2'>
+                <div className='xl:-mt-28 mt-10 2xl:absolute flex flex-wrap justify-center gap-28  text-[#faf7e3] sm:px-5 px-2'>
                     <div className="z-50 about_hover">
                         <img className='border-8 border-white'  src={feature} alt="" />
                         <div className="-mt-[50%] text-center">
-                            <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
+                            <h2 className='lg:text-4xl text-2xl font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold py-3 text-sm px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>
-                    <div className="z-50 about_hover">
+                    <div className="z-50 about_hover py-20 lg:py-0">
                         <img className='border-8 border-white' src={feature2} alt="" />
                         <div className="-mt-[50%] text-center">
-                            <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
+                            <h2 className='lg:text-4xl text-2xl font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold py-3 text-sm px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>
                     <div className="z-50 about_hover">
                         <img className='border-8 border-white' src={feature3} alt="" />
                         <div className="-mt-[50%] text-center ">
-                            <h2 className='lg:text-4xl md:text-2xl sm:text-lg text-sm font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
+                            <h2 className='lg:text-4xl text-2xl font-bold sm:pb-7 pb-1'>More Charity <br className='hidden lg:flex' />
                                 Better Lives</h2>
                                 <div className="hidden about_hover_text">
-                                <button className="bg-[#faf7e3] text-black font-semibold sm:py-3 py-1 text-sm sm:px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
+                                <button className="bg-[#faf7e3] text-black font-semibold py-3 text-sm px-6"><span className='flex items-center gap-3'>Learn More <FaAngleRight className='text-[#e7a38a]' /></span></button>
                                 </div>
                         </div>
                     </div>

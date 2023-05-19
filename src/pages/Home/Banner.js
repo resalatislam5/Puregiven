@@ -33,7 +33,7 @@ const Banner = () => {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           onAutoplayTimeLeft={onAutoplayTimeLeft}
-          className="mySwiper"
+          className="mySwiper banner"
         >
           <SwiperSlide>
           <div style={{backgroundImage: `url(${banner})`}} className='h-[93vh] bg-cover bg-no-repeat'>
